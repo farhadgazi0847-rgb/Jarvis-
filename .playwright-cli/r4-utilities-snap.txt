@@ -1,0 +1,119 @@
+### Page
+- Page URL: http://localhost:3000/
+- Page Title: JARVIS AI — Personal AI Assistant
+### Snapshot
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "JARVIS AI" [ref=e6]
+      - navigation "Primary sections" [ref=e7]:
+        - button "Assistant" [ref=e8]
+        - button "Search" [ref=e9]
+        - button "Device" [ref=e10]
+        - button "Utilities" [active] [ref=e11]
+        - button "Android Plan" [ref=e12]
+      - button "Settings" [ref=e14]
+  - main [ref=e19]:
+    - generic [ref=e189]:
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - heading "Smart Tasks" [level=2] [ref=e196]
+          - generic [ref=e197]: 3 pending
+        - generic [ref=e198]:
+          - generic [ref=e199]: New task title
+          - textbox "New task title" [ref=e200]:
+            - /placeholder: Add a task...
+          - combobox "Task priority" [ref=e201]:
+            - option "Low"
+            - option "Medium" [selected]
+            - option "High"
+          - button "Add task" [ref=e202]:
+            - generic [ref=e204]: Add
+        - list [ref=e205]:
+          - listitem [ref=e206]:
+            - button "Calibrate telemetry · medium" [ref=e207]:
+              - generic [ref=e210]: Calibrate telemetry
+              - generic [ref=e211]: · medium
+            - button "Delete task Calibrate telemetry" [ref=e212]
+          - listitem [ref=e216]:
+            - button "Review JARVIS Kotlin WakeWord ForegroundService · high" [ref=e217]:
+              - generic [ref=e220]: Review JARVIS Kotlin WakeWord ForegroundService
+              - generic [ref=e221]: · high
+            - button "Delete task Review JARVIS Kotlin WakeWord ForegroundService" [ref=e222]
+          - listitem [ref=e226]:
+            - button "Test Bengali and Hindi voice prompts · medium" [ref=e227]:
+              - generic [ref=e230]: Test Bengali and Hindi voice prompts
+              - generic [ref=e231]: · medium
+            - button "Delete task Test Bengali and Hindi voice prompts" [ref=e232]
+      - generic [ref=e236]:
+        - generic [ref=e237]:
+          - heading "Alarms & Reminders" [level=2] [ref=e246]
+          - generic [ref=e247]: 1 armed
+        - generic [ref=e248]:
+          - generic [ref=e249]: Alarm label
+          - textbox "Alarm label" [ref=e250]:
+            - /placeholder: Reminder label...
+          - generic [ref=e251]: Alarm time
+          - textbox "Alarm time" [ref=e252]: 07:30
+          - button "Set" [ref=e253]
+        - list [ref=e256]:
+          - listitem [ref=e257]:
+            - generic [ref=e258]:
+              - text: 07:30·Morning Briefing
+              - generic [ref=e259]: · in 16h 33m
+            - generic [ref=e260]:
+              - switch "Toggle alarm Morning Briefing" [checked] [ref=e261]: "On"
+              - button "Delete alarm Morning Briefing" [ref=e262]
+      - generic [ref=e266]:
+        - heading "Notes Manager" [level=2] [ref=e271]
+        - generic [ref=e272]:
+          - textbox "Note title" [ref=e273]:
+            - /placeholder: Note title...
+          - generic [ref=e274]:
+            - textbox "Note details" [ref=e275]:
+              - /placeholder: Write note details...
+            - button "Save" [ref=e276]
+        - list [ref=e277]:
+          - listitem [ref=e278]:
+            - generic [ref=e279]:
+              - generic [ref=e280]: Multilingual Voice Architecture
+              - paragraph [ref=e281]: Supports English, বাংলা, हिन्दी, Banglish, and Hinglish with automatic detection.
+            - button "Delete note Multilingual Voice Architecture" [ref=e282]
+      - generic [ref=e286]:
+        - heading "Calendar Schedule" [level=2] [ref=e290]
+        - generic [ref=e291]:
+          - textbox "Event title" [ref=e292]:
+            - /placeholder: Event title...
+          - textbox "Event date" [ref=e293]: 2026-11-22
+          - textbox "Event time" [ref=e294]: 14:00
+          - textbox "Event location" [ref=e295]:
+            - /placeholder: Location (optional)
+          - button "Schedule Event" [ref=e296]
+        - list [ref=e297]:
+          - listitem [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]: JARVIS System Calibration
+              - generic [ref=e301]: 2026-11-22 · 16:30 · Studio Lab
+            - button "Delete event JARVIS System Calibration" [ref=e302]
+      - generic [ref=e306]:
+        - heading "Calculator" [level=2] [ref=e310]
+        - generic [ref=e311]: Arithmetic expression
+        - textbox "Arithmetic expression" [ref=e312]:
+          - /placeholder: e.g. (245 * 18) + sqrt(144)
+          - text: (245 * 18) + 90
+        - generic [ref=e314]:
+          - generic [ref=e315]: Result
+          - generic [ref=e316]: "4500"
+      - generic [ref=e317]:
+        - heading "Multilingual Translator" [level=2] [ref=e323]
+        - generic [ref=e324]:
+          - textbox "Text to translate" [ref=e325]:
+            - /placeholder: Enter English, বাংলা, हिन्दी, Banglish, or Hinglish...
+          - generic [ref=e326]:
+            - combobox "Target language" [ref=e327]:
+              - option "Translate to বাংলা (Bengali)" [selected]
+              - option "Translate to हिन्दी (Hindi)"
+              - option "Translate to English"
+            - button "Translate" [disabled] [ref=e328]
+```

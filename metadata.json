@@ -1,0 +1,6 @@
+{
+  "name": "JARVIS AI",
+  "description": "Multilingual personal AI assistant with holographic voice core, Gemini tool calling, live web search grounding, and Android device-control architecture.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

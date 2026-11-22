@@ -1,0 +1,35 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "JARVIS AI" [ref=e6]
+      - navigation "Primary sections" [ref=e7]:
+        - button "Assistant" [ref=e8]
+        - button "Search" [active] [ref=e9]
+        - button "Device" [ref=e10]
+        - button "Utilities" [ref=e11]
+        - button "Android Plan" [ref=e12]
+      - button "Settings" [ref=e14]
+  - main [ref=e19]:
+    - generic [ref=e193]:
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - heading "Daily Intelligence Briefing" [level=2] [ref=e197]
+          - paragraph [ref=e198]: 3 open tasks · 1 active alarms · 1 scheduled events
+        - button "Generate Daily Briefing" [ref=e199]
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - heading "Internet Search Engine" [level=2] [ref=e209]
+            - paragraph [ref=e210]: Powered by live Google Search grounding with verified source URLs.
+          - generic [ref=e211]:
+            - button "Web" [ref=e212]
+            - button "News" [ref=e217]
+            - button "Weather" [ref=e222]
+        - generic [ref=e229]:
+          - generic [ref=e230]: Search the internet
+          - textbox "Search the internet" [ref=e231]:
+            - /placeholder: Search websites, facts, or recent information...
+          - button "Search" [disabled] [ref=e232]
+        - generic [ref=e237]:
+          - button "Dhaka Weather" [ref=e238]
+          - button "Tech & Space News" [ref=e239]

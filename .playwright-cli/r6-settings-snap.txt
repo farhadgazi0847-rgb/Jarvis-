@@ -1,0 +1,93 @@
+### Page
+- Page URL: http://localhost:3000/
+- Page Title: JARVIS AI — Personal AI Assistant
+### Snapshot
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "JARVIS AI" [ref=e6]
+      - navigation "Primary sections" [ref=e7]:
+        - button "Assistant" [ref=e8]
+        - button "Search" [ref=e9]
+        - button "Device" [ref=e10]
+        - button "Utilities" [ref=e11]
+        - button "Android Plan" [ref=e12]
+      - button "Settings" [active] [ref=e14]
+  - status [ref=e157]:
+    - generic [ref=e158]:
+      - generic [ref=e159]: No microphone input device was detected. Connect a microphone or type your command below.
+      - button "Dismiss notice" [ref=e161]
+  - main [ref=e19]:
+    - generic [ref=e334]:
+      - generic [ref=e335]:
+        - heading "Assistant Personalization" [level=2] [ref=e341]
+        - generic [ref=e342]:
+          - generic [ref=e343]:
+            - generic [ref=e344]: Language Mode
+            - combobox "Language Mode" [ref=e345]:
+              - option "Auto-Detect (English · বাংলা · हिन्दी · Banglish · Hinglish)" [selected]
+              - option "English Only"
+              - option "Bengali (বাংলা)"
+              - option "Hindi (हिन्दी)"
+          - generic [ref=e346]:
+            - generic [ref=e347]: JARVIS Voice Persona
+            - generic [ref=e348]:
+              - combobox "JARVIS Voice Persona" [ref=e349]:
+                - option "Charon · Deep Tactical (Gemini TTS)" [selected]
+                - option "Fenrir · Resonant Baritone (Gemini TTS)"
+                - option "Puck · Crisp & Energetic (Gemini TTS)"
+                - option "Kore · Warm & Clear (Gemini TTS)"
+                - option "Zephyr · Calm Neutral (Gemini TTS)"
+                - option "Device Offline SpeechSynthesis (Zero Network)"
+              - button "Test Voice" [ref=e350]
+          - generic [ref=e351]:
+            - generic [ref=e352]: Assistant Personality
+            - combobox "Assistant Personality" [ref=e353]:
+              - option "JARVIS Classic (Composed, intelligent, subtly witty)" [selected]
+              - option "Tactical Concise (Brief cockpit telemetry style)"
+              - option "Warm Companion (Friendly and conversational)"
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - generic [ref=e356]: Auto-Speak Responses
+              - generic [ref=e357]: Read JARVIS replies aloud automatically after generation
+            - switch "Toggle auto-speak responses" [ref=e358]: "Off"
+          - generic [ref=e359]:
+            - generic [ref=e360]:
+              - generic [ref=e361]: Custom Wake-Word Phrases
+              - switch "Toggle wake-word listener" [ref=e369]: Disabled
+            - generic [ref=e370]:
+              - textbox "Wake-word phrases" [ref=e371]: Hey Jarvis, Jarvis
+              - button "Apply" [ref=e372]
+            - generic [ref=e373]:
+              - generic [ref=e374]:
+                - text: "Browser Mic Permission:"
+                - strong [ref=e375]: Prompt Required
+              - button "Grant Mic Access" [ref=e376]
+            - paragraph [ref=e377]: Microphone is active only while enabled and clearly indicated in the HUD. No hidden recording.
+      - generic [ref=e378]:
+        - generic [ref=e379]:
+          - generic [ref=e380]:
+            - heading "User-Approved Memory" [level=2] [ref=e390]
+            - generic [ref=e391]: 1 stored
+          - generic [ref=e392]:
+            - textbox "Memory fact" [ref=e393]:
+              - /placeholder: e.g. Call me Commander, prefer Celsius...
+            - combobox "Memory category" [ref=e394]:
+              - option "Preference" [selected]
+              - option "Routine"
+              - option "Contact"
+              - option "General"
+            - button "Save" [ref=e395]
+          - list [ref=e398]:
+            - listitem [ref=e399]:
+              - generic [ref=e400]:
+                - text: Prefer concise, practical responses with verified sources.
+                - generic [ref=e401]: · preference
+              - button "Delete memory Prefer concise, practical responses with verified sources." [ref=e402]
+        - generic [ref=e406]:
+          - generic [ref=e407]:
+            - heading "Recent Commands & History" [level=2] [ref=e413]
+            - button "Clear Conversation History" [ref=e414]
+          - paragraph [ref=e415]: No recent device or assistant commands logged.
+```

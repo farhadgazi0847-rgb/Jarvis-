@@ -1,0 +1,50 @@
+### Page
+- Page URL: http://localhost:3000/
+- Page Title: JARVIS AI — Personal AI Assistant
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "JARVIS AI" [ref=e6]
+      - navigation "Primary sections" [ref=e7]:
+        - button "Assistant" [ref=e8]
+        - button "Search" [ref=e9]
+        - button "Device" [ref=e10]
+        - button "Utilities" [ref=e11]
+        - button "Android Plan" [ref=e12]
+      - button "Settings" [ref=e14]
+  - main [ref=e19]:
+    - generic [ref=e193]:
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - heading "Daily Intelligence Briefing" [level=2] [ref=e197]
+          - paragraph [ref=e198]: 3 open tasks · 1 active alarms · 1 scheduled events
+        - button "Generate Daily Briefing" [ref=e199]
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - heading "Internet Search Engine" [level=2] [ref=e209]
+            - paragraph [ref=e210]: Powered by live Google Search grounding with verified source URLs.
+          - generic [ref=e211]:
+            - button "Web" [ref=e212]
+            - button "News" [ref=e217]
+            - button "Weather" [ref=e222]
+        - generic [ref=e229]:
+          - generic [ref=e230]: Search the internet
+          - textbox "Search the internet" [ref=e231]:
+            - /placeholder: Enter news topic (e.g., AI breakthroughs, cricket match)...
+            - text: Latest technology and space exploration news today
+          - button "Search" [ref=e232]
+        - generic [ref=e237]:
+          - button "Dhaka Weather" [ref=e238]
+          - button "Tech & Space News" [active] [ref=e239]
+        - generic [ref=e240]:
+          - paragraph [ref=e241]: Gemini API quota limit reached (429 RESOURCE_EXHAUSTED). Please check your API plan or quota in Settings > Secrets.
+          - generic [ref=e242]:
+            - link "Open Google Search in Browser" [ref=e243] [cursor=pointer]:
+              - /url: https://www.google.com/search?q=Latest%20technology%20and%20space%20exploration%20news%20today
+            - link "Open Google Images" [ref=e249] [cursor=pointer]:
+              - /url: https://www.google.com/search?tbm=isch&q=Latest%20technology%20and%20space%20exploration%20news%20today
+```
